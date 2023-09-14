@@ -151,7 +151,7 @@ continueButton.style.display = "block";
  }
 function updateProgressBar () {
         let progressBar = document.querySelector("#progress-bar");
-        progressBar.setAttribute("value", currentQuestionIndex);
+        progressBar.setAttribute("value", score);
         progressBar.setAttribute("max", questions.length);
 }
 
